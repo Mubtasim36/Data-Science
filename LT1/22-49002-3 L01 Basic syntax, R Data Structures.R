@@ -90,7 +90,7 @@ print(mat)
 
 #17
 # Filling a Matrix Row-Wise
-mat <- matrix(1:6, nrow = 3, byrow = TRUE)
+mat <- matrix(1:6, nrow = 3,ncol = 2, byrow = TRUE)
 print(mat)
 
 
@@ -167,7 +167,7 @@ print(sum(arr))
 #27
 # Applying Functions to Arrays
 # Creating an array
-arr <- array(1:18, dim = c(3, 3, 2))
+arr <- array(1:18, dim = c(3, 3, 6))
 print(arr)
 # Sum of all elements in the array
 print(sum(arr))
@@ -198,6 +198,7 @@ df <- data.frame(
   Passed = c(TRUE, FALSE, TRUE, TRUE,FALSE)
 )
 
+mean(df$Score)
 # Print the data frame
 print(df)
 
