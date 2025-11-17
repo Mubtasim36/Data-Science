@@ -20,8 +20,8 @@ data("mtcars")
 head(mtcars)
 
 ggplot(mtcars, aes(x = hp, y = mpg)) +
-  geom_point() +
-  geom_smooth(method = "lm", se = FALSE, color = "blue") +
+  geom_point() +     #Adds scatter plot points (one point for each car).
+  geom_smooth(method = "lm", se = FALSE, color = "blue") +     #Adds a linear regression line ("lm" = linear model).se = FALSE removes the shaded confidence interval.
   labs(title = "HP vs MPG", x = "Horsepower", y = "Miles per Gallon")
 
 

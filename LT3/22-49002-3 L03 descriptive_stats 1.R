@@ -57,7 +57,7 @@ iris %>%
     sd_petal_length = sd(Petal.Length)
   )
 
-pairs(iris[, 1:4], main = "Scatterplot Matrix of Iris Data", col = iris$Species)
+pairs(iris[, 1:4], main = "Scatterplot Matrix of Iris Data", col = iris$Species)#1:4 means columns from 1 to 4
 
 
 install.packages("readr")
