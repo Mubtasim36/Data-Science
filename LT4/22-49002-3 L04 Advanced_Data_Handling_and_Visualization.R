@@ -44,7 +44,7 @@ colSums(is.na(mtcars))
 
 
 
-# Create a new dataframe with rows containing NA values removed
+#Create a new dataframe with rows containing NA values removed
 mtcars_clean <- na.omit(mtcars)
 
 # Verify that there are no more NA values
